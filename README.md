@@ -1,2 +1,16 @@
 # AstroPlasma
-This is a repository only for wiki that describe about Athena++, super computers.
+Athena++やスパコン関連の情報をまとめるためのwikiを作りました。皆でこのwikiを充実させましょう。  
+
+## wikiの書き方
+* wikiはマークアップ文で記述します。
+* 改行は&lt; br &gt;または半角空白二つで行います。
+* 画像を入れるときは、は編集画面の画像挿入ボタンを押し、画像のURLを貼ります。
+* wikiで使用する画像は本レポジトリのfigフォルダに入れておくと便利です。
+* `` で囲むと`main()`のような表記になります。
+* 長めのコードを記述するときは始まりと終わりを```で囲ってください。例↓
+```
+import numpy as np
+x = [0.1,0.2,0.3]
+y=np.sin(x)
+print(y)
+```
